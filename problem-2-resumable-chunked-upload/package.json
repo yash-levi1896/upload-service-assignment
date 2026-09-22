@@ -1,0 +1,23 @@
+{
+  "name": "problem-2-resumable-chunked-upload",
+  "version": "1.0.0",
+  "description": "Resumable / chunked file upload API (Express + PostgreSQL) - upload large files in independent chunks, resume after connection failure",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "migrate": "node db/migrate.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

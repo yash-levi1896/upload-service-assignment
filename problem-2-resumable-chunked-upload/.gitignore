@@ -1,0 +1,7 @@
+node_modules/
+.env
+storage/chunks/*
+storage/completed/*
+!storage/chunks/.gitkeep
+!storage/completed/.gitkeep
+npm-debug.log
