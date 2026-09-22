@@ -1,0 +1,7 @@
+name,email,phone
+John Doe,john@example.com,+1-555-123-4567
+Jane Smith,jane@example.com,+1-555-987-6543
+Bad Row,not-an-email,123
+John Doe,john2@example.com,+1-555-123-4567
+No Phone Person,noph@example.com,
+Valid Two,valid2@example.com,+44 20 7946 0958
